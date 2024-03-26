@@ -1,0 +1,85 @@
+html{
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top: 20px;
+    right: 0;
+}
+
+li {
+    float: left;
+
+
+}
+
+li a {
+    background-color: black;
+    color: black;
+    display: inline;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+#profile {
+
+    float: right;
+    border-radius:50%;
+    padding: 20px;
+    width: 220px;
+    height: 250px;
+
+}
+
+h2 {
+    margin: 20px;
+}
+
+#About {
+    margin: 18px;
+    font-size: medium;
+}
+
+#Home {
+    height: 200px;
+    padding-top: 100px;
+    margin:20px;
+    font-size: 30px;
+}
+
+#Certifications {
+    margin: 20px;
+}
+
+.photos {
+    height: 350px;
+    width: 33%;
+}
+
+#Contact {
+    background-color: black;
+    color: beige;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+#Projects {
+    height: 500px;
+    margin-left:20px ;
+}
+
